@@ -1,0 +1,2 @@
+[web]
+5.196.88.192 ansible_connection=ssh ansible_user=ubuntu

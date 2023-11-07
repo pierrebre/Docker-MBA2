@@ -1,0 +1,10 @@
+# WEB SERVER
+- name: Exécuter un fichier docker-compose.yml
+  hosts: web
+  become: true
+
+  tasks:
+    - name: Exécuter docker-compose
+      community.general.docker_compose:
+        project_src: /var/www/prevention/docker-compose.yml
+        state: present
