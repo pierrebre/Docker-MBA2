@@ -6,5 +6,5 @@
   tasks:
     - name: Exécuter docker-compose
       community.general.docker_compose:
-        project_src: /var/www/prevention/docker-compose.yml
+        project_src: /var/www/Docker-MBA2/docker-compose.yml
         state: present
